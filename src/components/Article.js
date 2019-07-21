@@ -48,7 +48,7 @@ export default class Article extends React.Component {
 			<TouchableHighlight
 				useForeground
 				onPress={() => Linking.openURL(url)}> 
-			<Card
+				<Card
 				featuredTitle={title}
 				featuredTitleStyle={featuredTitleStyle}
 				image={{

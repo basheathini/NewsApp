@@ -21,6 +21,13 @@ export default class App extends React.Component{
   componentDidMount(){
     this.fetchNews()
   }
+  componentDidCatch(){}
+  componentDidUpdate(){}
+  componentWillMount(){}
+  componentWillReceiveProps(){}
+  componentWillUnmount(){}
+  componentWillUpdate(){}
+  
 
   fetchNews(){
     getNews()
